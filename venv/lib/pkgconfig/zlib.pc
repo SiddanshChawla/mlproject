@@ -1,0 +1,13 @@
+prefix=/Users/siddansh/Documents/mlproject/venv
+exec_prefix=/Users/siddansh/Documents/mlproject/venv
+libdir=/Users/siddansh/Documents/mlproject/venv/lib
+sharedlibdir=/Users/siddansh/Documents/mlproject/venv/lib
+includedir=/Users/siddansh/Documents/mlproject/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
